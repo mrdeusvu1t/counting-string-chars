@@ -8,10 +8,10 @@ For all these methods there are functionally equivalent method implemented with 
 
 ## Task
 
-1. Analyze the implementation of the "GetCharsCountRecursive" methods in the [ForMethods.cs](CountChars/ForMethods.cs) file. Implement "GetCharsCount" static method in the [ForMethods class](CountChars/ForMethods.cs). See TODO.
-2. Analyze the implementation of the "GetSpaceCountRecursive" method in the [WhileMethods.cs](CountChars/WhileMethods.cs) file. Implement "GetSpaceCount" static method in the [WhileMethods class](CountChars/WhileMethods.cs). See TODO.
-3. Analyze the implementation of the "GetNumbersCountRecursive" methods in the [DoWhileMethods.cs](CountChars/DoWhileMethods.cs) file. Implement "GetNumbersCount" static method in the [DoWhileMethods class](CountChars/DoWhileMethods.cs). See TODO.
-4. Analyze the implementation of the "GetCharsCountRecursive" method in the [ForEachWhileMethods.cs](CountChars/ForEachWhileMethods.cs) file. Implement "GetCharsCount" static method in the [ForEachWhileMethods class](CountChars/ForEachWhileMethods.cs). See TODO.
+1. Analyze the implementation of the "GetCharsCountRecursive" methods in the [ForMethods.cs](CountChars/ForMethods.cs) file. Implement "GetCharsCount" static method. See TODO.
+2. Analyze the implementation of the "GetSpaceCountRecursive" method in the [WhileMethods.cs](CountChars/WhileMethods.cs) file. Implement "GetSpaceCount" static method. See TODO.
+3. Analyze the implementation of the "GetNumbersCountRecursive" methods in the [DoWhileMethods.cs](CountChars/DoWhileMethods.cs) file. Implement "GetNumbersCount" static method. See TODO.
+4. Analyze the implementation of the "GetCharsCountRecursive" method in the [ForEachWhileMethods.cs](CountChars/ForEachMethods.cs) file. Implement "GetCharsCount" static method. See TODO.
 5. Build a solution in [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio). Make sure there are **no compiler errors and warnings**, fix these issues and rebuild the solution.
 6. Run all unit tests with [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/test/run-unit-tests-with-test-explorer) and make sure there are **no failed unit tests**. Fix your code to [make all tests GREEN](https://stackoverflow.com/questions/276813/what-is-red-green-testing).
 7. Review all your changes in the codebase **before** [staging the changes and creating a commit](https://docs.microsoft.com/en-us/azure/devops/repos/git/commits).
