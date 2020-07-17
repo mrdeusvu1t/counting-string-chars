@@ -25,6 +25,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CountChars\CountChars.csproj" />
+    <ProjectReference Include="..\CountingStringChars\CountingStringChars.csproj" />
   </ItemGroup>
 </Project>

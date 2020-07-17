@@ -1,20 +1,45 @@
-## Getting a Characters Count
+# Counting String Chars
 
-A beginner level task for practicing loops (for, while, do..while, foreach).
+A beginner level task for practicing loops and branches.
 
-In the task you have to implement "GetCharsCount", "GetSpaceCount" and "GetNumbersCount" methods. The implementation details are described with TODO comments in code files.
+The task is to implement four methods using "for", "while", "do" and "foreach" statements.
 
-For all these methods there are functionally equivalent method implemented with recursion. Analyze these methods and run unit tests for them before starting implementing methods you have to implement.
 
-## Task
+## Get the Project
 
-1. Analyze the implementation of the "GetCharsCountRecursive" methods in the [ForMethods.cs](CountChars/ForMethods.cs) file. Implement "GetCharsCount" static method. See TODO.
-2. Analyze the implementation of the "GetSpaceCountRecursive" method in the [WhileMethods.cs](CountChars/WhileMethods.cs) file. Implement "GetSpaceCount" static method. See TODO.
-3. Analyze the implementation of the "GetNumbersCountRecursive" methods in the [DoWhileMethods.cs](CountChars/DoWhileMethods.cs) file. Implement "GetNumbersCount" static method. See TODO.
-4. Analyze the implementation of the "GetCharsCountRecursive" method in the [ForEachWhileMethods.cs](CountChars/ForEachMethods.cs) file. Implement "GetCharsCount" static method. See TODO.
-5. Build a solution in [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio). Make sure there are **no compiler errors and warnings**, fix these issues and rebuild the solution.
-6. Run all unit tests with [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/test/run-unit-tests-with-test-explorer) and make sure there are **no failed unit tests**. Fix your code to [make all tests GREEN](https://stackoverflow.com/questions/276813/what-is-red-green-testing).
-7. Review all your changes in the codebase **before** [staging the changes and creating a commit](https://docs.microsoft.com/en-us/azure/devops/repos/git/commits).
+* [Fork the task project (repository)](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#creating-a-fork) in GitLab.
+* [Open a project from your remote repository](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-open-project-from-repo) or [get your local copy](https://docs.microsoft.com/en-us/azure/devops/repos/git/clone#clone-from-another-git-provider) with Visual Studio.
+
+
+## Complete the Task
+
+The implementation details are described with TODO comments in code files. For all methods you have to implement there are functionally equivalent method implemented with recursion. Analyze these methods and run unit tests for them before starting implementing methods you have to implement.
+
+1. Analyze the implementation of the "GetCharsCountRecursive" methods in the [ForMethods.cs](CountingStringChars/ForMethods.cs) file. Implement "GetCharsCount" static method. See TODO.
+2. Analyze the implementation of the "GetSpaceCountRecursive" method in the [WhileMethods.cs](CountingStringChars/WhileMethods.cs) file. Implement "GetSpaceCount" static method. See TODO.
+3. Analyze the implementation of the "GetNumbersCountRecursive" methods in the [DoWhileMethods.cs](CountingStringChars/DoWhileMethods.cs) file. Implement "GetNumbersCount" static method. See TODO.
+4. Analyze the implementation of the "GetCharsCountRecursive" method in the [ForEachWhileMethods.cs](CountingStringChars/ForEachMethods.cs) file. Implement "GetCharsCount" static method. See TODO.
+
+
+## Fix Compiler Issues
+
+Additional style and code checks are enabled for the projects in this solution to help you maintaining consistency of the project source code and avoiding silly mistakes. [Review the Error List](https://docs.microsoft.com/en-us/visualstudio/ide/find-and-fix-code-errors#review-the-error-list) in Visual Studio to see all compiler warnings and errors.
+
+If a compiler error or warning message is not clear, [review errors details](https://docs.microsoft.com/en-us/visualstudio/ide/find-and-fix-code-errors#review-errors-in-detail) or google the error or warning code to get more information about the issue.
+
+
+## Save Your Work
+
+* [Rebuild your solution](https://docs.microsoft.com/en-us/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio) in Visual Studio.
+* Check out the [Error List window](https://docs.microsoft.com/en-us/visualstudio/ide/reference/error-list-window) for compiler errors and warnings. If you have any of those issues, **fix issues** and rebuild the solution again.
+* [Run all unit tests with Test Explorer](https://docs.microsoft.com/en-us/visualstudio/test/run-unit-tests-with-test-explorer) and make sure there are **no failed unit tests**. Fix your code to [make all your unit tests GREEN](https://stackoverflow.com/questions/276813/what-is-red-green-testing).
+* Review all your changes **before** saving your work.
+    * Open "Changes" view in [Team Explorer](https://docs.microsoft.com/en-us/visualstudio/ide/reference/team-explorer-reference).
+    * Click with your right mouse button on a modified file.
+    * Click on "Compare with Unmodified" menu item to open a comparison window.
+* [Stage your changes](https://docs.microsoft.com/en-us/azure/devops/repos/git/commits#stage-your-changes) and [create a commit](https://docs.microsoft.com/en-us/azure/devops/repos/git/commits#create-a-commit).
+* Share your changes by [pushing them to remote repository](https://docs.microsoft.com/en-us/azure/devops/repos/git/pushing).
+
 
 ## See also
 
@@ -36,4 +61,3 @@ For all these methods there are functionally equivalent method implemented with 
   * [Char.IsWhiteSpace Method](https://docs.microsoft.com/en-us/dotnet/api/system.char.iswhitespace)
 * What's new in C#
   * C# 8.0 - [Indices and ranges](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8#indices-and-ranges)
-
