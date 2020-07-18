@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CountChars
+namespace CountingStringChars
 {
     public static class WhileMethods
     {

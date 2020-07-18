@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #pragma warning disable CA1062
 
-namespace CountChars
+namespace CountingStringChars
 {
     public static class ForEachMethods
     {

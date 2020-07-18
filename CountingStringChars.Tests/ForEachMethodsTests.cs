@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 #pragma warning disable CA1707
 
-namespace CountChars.Tests
+namespace CountingStringChars.Tests
 {
     [TestFixture]
     public sealed class ForEachMethodsTests

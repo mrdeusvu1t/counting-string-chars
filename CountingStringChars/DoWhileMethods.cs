@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CountChars
+namespace CountingStringChars
 {
     public static class DoWhileMethods
     {
@@ -25,7 +25,7 @@ namespace CountChars
         {
             if (charsLeft > 0)
             {
-                return GetNumbersCountRecursive(str, --charsLeft, char.IsDigit(str[^charsLeft]) ? ++counter : counter);
+                return GetNumbersCountRecursive(str, charsLeft - 1, char.IsDigit(str[^charsLeft]) ? ++counter : counter);
             }
 
             return counter;
