@@ -17,7 +17,7 @@ The implementation details are described with TODO comments in code files. For a
 
  You are not allowed to use any extension method from [System.Linq namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq).
 
-1. Analyze the implementation of the "GetCharsCountRecursive" methods in the [ForMethods.cs](CountingStringChars/ForMethods.cs) file. Implement "GetCharsCount" static method. See TODO.
+1. Analyze the implementation of the "GetCharCountRecursive" methods in the [ForMethods.cs](CountingStringChars/ForMethods.cs) file. Implement "GetCharCount" static method. See TODO.
 1. Analyze the implementation of the "GetUpperCharCountRecursive" methods in the [ForMethods.cs](CountingStringChars/ForMethods.cs) file. Implement "GetUpperCharCount" static method. See TODO.
 1. Analyze the implementation of the "GetSpaceCountRecursive" method in the [WhileMethods.cs](CountingStringChars/WhileMethods.cs) file. Implement "GetSpaceCount" static method. See TODO.
 1. Analyze the implementation of the "GetPunctuationCountRecursive" method in the [WhileMethods.cs](CountingStringChars/WhileMethods.cs) file. Implement "GetPunctuationCount" static method. See TODO.
