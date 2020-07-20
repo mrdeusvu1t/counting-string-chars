@@ -15,10 +15,14 @@ The task is to implement four methods using "for", "while", "do" and "foreach" s
 
 The implementation details are described with TODO comments in code files. For all methods you have to implement there are functionally equivalent method implemented with recursion. Analyze these methods and run unit tests for them before starting implementing methods you have to implement.
 
+ You are not allowed to use any extension method from [System.Linq namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq).
+
 1. Analyze the implementation of the "GetCharsCountRecursive" methods in the [ForMethods.cs](CountingStringChars/ForMethods.cs) file. Implement "GetCharsCount" static method. See TODO.
-2. Analyze the implementation of the "GetSpaceCountRecursive" method in the [WhileMethods.cs](CountingStringChars/WhileMethods.cs) file. Implement "GetSpaceCount" static method. See TODO.
-3. Analyze the implementation of the "GetNumbersCountRecursive" methods in the [DoWhileMethods.cs](CountingStringChars/DoWhileMethods.cs) file. Implement "GetNumbersCount" static method. See TODO.
-4. Analyze the implementation of the "GetCharsCountRecursive" method in the [ForEachWhileMethods.cs](CountingStringChars/ForEachMethods.cs) file. Implement "GetCharsCount" static method. See TODO.
+1. Analyze the implementation of the "GetUpperCharCountRecursive" methods in the [ForMethods.cs](CountingStringChars/ForMethods.cs) file. Implement "GetUpperCharCount" static method. See TODO.
+1. Analyze the implementation of the "GetSpaceCountRecursive" method in the [WhileMethods.cs](CountingStringChars/WhileMethods.cs) file. Implement "GetSpaceCount" static method. See TODO.
+1. Analyze the implementation of the "GetPunctuationCountRecursive" method in the [WhileMethods.cs](CountingStringChars/WhileMethods.cs) file. Implement "GetPunctuationCount" static method. See TODO.
+1. Analyze the implementation of the "GetDigitCountRecursive" methods in the [DoWhileMethods.cs](CountingStringChars/DoWhileMethods.cs) file. Implement "GetDigitCount" static method. See TODO.
+1. Analyze the implementation of the "GetLetterCountRecursive" method in the [ForEachWhileMethods.cs](CountingStringChars/ForEachMethods.cs) file. Implement "GetLetterCount" static method. See TODO.
 
 
 ## Fix Compiler Issues

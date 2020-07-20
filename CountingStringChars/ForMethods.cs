@@ -4,31 +4,80 @@ namespace CountingStringChars
 {
     public static class ForMethods
     {
-        public static int GetCharsCount(string str)
+        /// <summary>
+        /// Returns a number of characters in a string.
+        /// </summary>
+        /// <param name="str">A <see cref="string"/> to search.</param>
+        /// <returns>A number of characters in a string.</returns>
+        public static int GetCharCount(string str)
         {
-            // TODO #1. Analyze the implementation of "GetCharsCountRecursive" methods, and implement the "GetCharsCount" method using the "for" loop statement.
-            // The method should return a number of all characters in the "str" parameter value.
+            // TODO #1. Analyze the implementation of "GetCharCountRecursive" methods, and implement the method using the "for" loop statement.
             throw new NotImplementedException();
         }
 
-        public static int GetCharsCountRecursive(string str)
+        /// <summary>
+        /// Returns a number of upper characters in a string.
+        /// </summary>
+        /// <param name="str">A <see cref="string"/> to search.</param>
+        /// <returns>A number of upper characters in a string.</returns>
+        public static int GetUpperCharCount(string str)
+        {
+            // TODO #2. Analyze the implementation of "GetUpperCharCountRecursive" methods, and implement the method using the "for" loop statement.
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Returns a number of characters in a string.
+        /// </summary>
+        /// <param name="str">A <see cref="string"/> to search.</param>
+        /// <returns>A number of characters in a string.</returns>
+        public static int GetCharCountRecursive(string str)
         {
             if (str is null)
             {
                 throw new ArgumentNullException(nameof(str));
             }
 
-            return GetCharsCountRecursive(str, 0);
+            return GetCharCountRecursive(str, 0);
         }
 
-        private static int GetCharsCountRecursive(string str, int index)
+        /// <summary>
+        /// Returns a number of upper characters in a string.
+        /// </summary>
+        /// <param name="str">A <see cref="string"/> to search.</param>
+        /// <returns>A number of upper characters in a string.</returns>
+        public static int GetUpperCharCountRecursive(string str)
+        {
+            // TODO use another recursive algorithm
+            if (str is null)
+            {
+                throw new ArgumentNullException(nameof(str));
+            }
+
+            return GetUpperCharCountRecursive(str, 0);
+        }
+
+        private static int GetCharCountRecursive(string str, int index)
         {
             if (index >= str.Length)
             {
                 return 0;
             }
 
-            return GetCharsCountRecursive(str, index + 1) + 1;
+            return GetCharCountRecursive(str, index + 1) + 1;
+        }
+
+        private static int GetUpperCharCountRecursive(string str, int index)
+        {
+            if (index >= str.Length)
+            {
+                return 0;
+            }
+
+            bool isUpper = char.IsUpper(str[index]);
+            int currentIncrement = isUpper ? 1 : 0;
+
+            return GetUpperCharCountRecursive(str, index + 1) + currentIncrement;
         }
     }
 }
