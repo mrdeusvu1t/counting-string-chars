@@ -2,7 +2,7 @@
 
 A beginner level task for practicing loops.
 
-The task is to implement four methods using "for", "while", "do" and "foreach" statements.
+The task is to implement four methods using "for", "while" and "do" statements.
 
 
 ## Get the Project
