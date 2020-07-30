@@ -22,7 +22,7 @@ The implementation details are described with TODO comments in code files. For a
 1. Analyze the implementation of the "GetSpaceCountRecursive" method in the [WhileMethods.cs](CountingStringChars/WhileMethods.cs) file. Implement "GetSpaceCount" static method. See TODO.
 1. Analyze the implementation of the "GetPunctuationCountRecursive" method in the [WhileMethods.cs](CountingStringChars/WhileMethods.cs) file. Implement "GetPunctuationCount" static method. See TODO.
 1. Analyze the implementation of the "GetDigitCountRecursive" methods in the [DoWhileMethods.cs](CountingStringChars/DoWhileMethods.cs) file. Implement "GetDigitCount" static method. See TODO.
-1. Analyze the implementation of the "GetLetterCountRecursive" method in the [ForEachWhileMethods.cs](CountingStringChars/ForEachMethods.cs) file. Implement "GetLetterCount" static method. See TODO.
+1. Analyze the implementation of the "GetLetterCountRecursive" method in the [DoWhileMethods.cs](CountingStringChars/DoWhileMethods.cs) file. Implement "GetLetterCount" static method. See TODO.
 
 
 ## Fix Compiler Issues
