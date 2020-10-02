@@ -48,7 +48,6 @@ namespace CountingStringChars
         /// <returns>A number of upper characters in a string.</returns>
         public static int GetUpperCharCountRecursive(string str)
         {
-            // TODO use another recursive algorithm
             if (str is null)
             {
                 throw new ArgumentNullException(nameof(str));

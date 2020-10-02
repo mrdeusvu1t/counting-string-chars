@@ -48,7 +48,6 @@ namespace CountingStringChars
         /// <returns>A number of letters in a string.</returns>
         public static int GetLetterCountRecursive(string str)
         {
-            // TODO implement different recursive algorithm
             if (str is null)
             {
                 throw new ArgumentNullException(nameof(str));

@@ -55,7 +55,6 @@ namespace CountingStringChars
         /// <returns>A number of punctuation marks in a string.</returns>
         public static int GetPunctuationCountRecursive(string str)
         {
-            // TODO use another recursive algorithm
             if (str is null)
             {
                 throw new ArgumentNullException(nameof(str));
